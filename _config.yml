@@ -28,6 +28,22 @@ gh_edit_repository: "https://github.com"
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: IMPORTANTE
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: NOTAS
+    color: purple
+  warning:
+    title: ATENÇÃO
+    color: red
+
 footer_content: "Copyright &copy; 2026 Meu Projeto. Distribuído sob a licença MIT."
 exclude:
   - Gemfile
