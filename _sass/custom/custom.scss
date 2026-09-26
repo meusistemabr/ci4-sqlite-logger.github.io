@@ -4,3 +4,19 @@
 .main-content li {
   text-align: justify;
 }
+.ms-container {
+  display: block;
+  content: "";
+  clear: both;
+  margin-bottom: 1.5rem;
+}
+.ms-logo {
+  width: 150px;
+  float: left;
+  padding-left: 0;
+  margin-right: 20px;
+}
+.ms-content {
+  padding-left: 50px;
+  overflow: hidden;
+}
