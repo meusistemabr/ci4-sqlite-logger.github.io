@@ -6,10 +6,9 @@ description: "Documentação oficial do CI4 SQLite Logger. Sistema de logging fo
 permalink: /
 ---
 
-[Example](https://user-images.githubusercontent.com/1879136/73363560-ef6b0880-42e3-11ea-8b25-de885166a3b0.png)
-
 # CI4 SQLite Logger 🛡️
 {: .no_toc .fw-700 .text-center }
+
 
 Biblioteca de alta integridade e auditoria estruturada para o framework [CodeIgniter 4](https://codeigniter.com/ "CodeIgniter Official Site"). Projetada para substituir arquivos de texto planos (`.log`) por bancos relacionais [SQLite](https://www.sqlite.org/ "SQLite Database Engine") rotativos criptograficamente encadeados.
 
@@ -25,13 +24,6 @@ O script, em sua implementação inicial, executa a criação de um nó de hash 
 
 Consequentemente, uma cadeia de nós que tenha sofrido tal quebra ou corrupção torna-se inútil para fins de auditoria ou comprovação de provas, visto que sua funcionalidade e segurança foram comprometidas.  Portanto, a criação do nó inicial com o máximo rigor e segurança é essencial para garantir a eficácia e a confiabilidade da cadeia de custódia como um todo.
 {: .note }
-
-
-## Sumário
-{: .no_toc .text-delta }
-
-1. TOC
-{: .toc}
 
 ---
 
@@ -74,3 +66,22 @@ Captura automática de:
 
 > **Requisitos do Ambiente:** PHP 8.1+, extensão `ext-sqlite3` habilitada e [CodeIgniter 4.x](https://codeigniter.com/user_guide/ "CodeIgniter 4 User Guide") instalado.
 {: .note }
+
+---
+
+## Apoiado e mantido por
+
+<div class="ms-container">
+  <img src="https://cdn-a1-br-sl.meusistema.com.br/imagens/logo_ms.png" alt="MeuSistema sistemas online personalizados" class="ms-logo">
+  <div class="ms-content">
+    <p>
+      <strong>Meu Sistema - Sistemas online personalizados</strong><br>
+      Acesse: <a href="https://meusistema.com.br" target="_blank" title="Sistemas online personalizados">https://meusistema.com.br</a><br>
+      Fale conosco em: contato[at]meusistema.com.br
+    </p>
+  </div>
+</div>
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
